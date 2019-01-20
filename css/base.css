@@ -1,0 +1,34 @@
+body,input,h1,h2,h3,h4,h5,li,ul,dl,dt,dd,ol,p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    list-style: none;
+    font-family: '微软雅黑';
+    color:#050505;
+}
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+img,input {
+	border: 0 none;
+	outline-style: none;
+	padding: 0;
+	vertical-align: bottom;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    line-height: 0;
+    visibility:  hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+

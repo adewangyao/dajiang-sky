@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>    
+    Array.prototype.max = function () {
+        var max = this[0]
+        var min = this[0]
+        for (var i = 0, len = this.length; i < len; i++) {
+            if (max < this[i]) {
+                max = this[i]
+            }
+            if (min > this[i]) {
+                min = this[i]
+            }
+
+        }
+        return max
+    }
+    var arr2 = [11, 22, 33, 44, 55, 66];
+    console.log(arr2.max())
+    </script>
+    
+</body>
+</html>
